@@ -9,3 +9,19 @@ $(".close").click(
     $(".hamburger-menu").hide();
   }
 );
+
+
+// ALTERNATIVA
+// var visible = false;
+//
+// $(".fas").click(
+//   function () {
+//     if(visible) {
+//       $(".hamburger-menu").hide();
+//       visible = false;
+//     } else {
+//       $(".hamburger-menu").show();
+//       visible = true;
+//     }
+//   }
+// )
